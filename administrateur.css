@@ -1,0 +1,165 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    background-color: #a9dce3;
+}
+header {width :100%;
+height :100px;
+background-color:#7689de;
+position: relative;
+}
+
+header li {
+    display: inline;
+    vertical-align: top;
+    position: absolute;
+}
+
+.logo {
+    width: 700px;
+    height: 100px;
+    float: left;
+    position: relative;
+    left: 0.5%;
+}
+
+.logo img {
+    width: 130px;
+    height: 100px;
+}
+
+ul {
+    float: right;
+    position: absolute;
+    right: 20%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    width: 120px;
+    padding: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 15px 40px;
+    line-height: 90px;
+
+
+}
+
+.menu {
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+
+ul li a:hover { 
+    background :#a9dce3;
+    border-radius : 15px;}
+
+
+li:hover .menu {
+    display: block;
+    background:#7689de;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    width: 300px;
+    padding-left: 1px;
+
+}
+
+.menu li {
+    display: inline-block;
+    border-bottom: 1px solid rgb(152, 147, 147);
+    width: 300px;
+
+}
+
+.menu li a {
+    line-height: 50px;
+    width: 80%;
+}
+
+
+
+      form {
+      
+      width: 100%;
+      position: relative;
+      padding: 20px 20px;
+
+      }
+      img {
+       border-radius: 50%;
+       padding:1px;
+      }
+
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+      .icon {
+      font-size: 110px;
+      display: flex;
+      justify-content: center;
+      color: #4286f4;
+      }
+      
+      h1 {
+      text-align:center;
+      font-size:18;
+      }
+      button:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: center;
+      margin: 24px 50px 12px;
+      }
+      .container {
+      padding: 16px 0;
+      text-align:left;
+      }
+      span.psw {
+      float: right;
+      padding-top: 0;
+      padding-right: 15px;
+      }
+
+      @media screen and (max-width: 300px){
+      span.psw {
+      display: block;
+      float: none;
+      }}
+      .cc {
+        margin-left: 100px;
+          border: none;
+          padding: 12px 24px;
+          border-radius: 50px;
+        
+          font-weight: 300;
+          color: #0077ff;
+          background-color: #e0efff;
+        
+         
+          margin: 30 auto;
+        
+          cursor: pointer;
+        }
